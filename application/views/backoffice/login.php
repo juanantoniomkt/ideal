@@ -18,8 +18,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 <h1>
 Hola
+
 <?php
 print_r($data[1]);
+
 ?>
 
 </h1>
