@@ -15,6 +15,15 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 </head>
 <body>
 
+
+<h1>
+Hola
+<?php
+print_r($data[1]);
+?>
+
+</h1>
+
 <div class="wrapper">
 	<form class="form-signin">       
 		<h2 class="form-signin-heading">Please login</h2>

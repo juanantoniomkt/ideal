@@ -20,6 +20,9 @@ class LoginController extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->load->view('backoffice/login');
+
+		$data = ["juan antonio", "jose manuel"];
+
+		$this->load->view('backoffice/login', compact("data"));
 	}
 }
